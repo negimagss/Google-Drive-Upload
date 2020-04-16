@@ -8,7 +8,7 @@ Installations on local:
 2.	Install pandas and pip 
 Google Cloud Setup
 1.	Set up an account on google cloud 
-2.	Set up API authentication and assign the secret key to the method you will be using
+2.	Set up API authentication and assign the secret key to the method you will be using, download the secretkey and place it in the root folder
 3.	The python script will be using localhost as the base so all access of http://localhost:8080/ to the google cloud.
 Steps to run the consolidation and upload to drive 
 1.	Place the monthly excel files in the folder 
