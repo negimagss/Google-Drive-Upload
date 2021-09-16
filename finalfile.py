@@ -9,6 +9,6 @@ drive = GoogleDrive(g_login)
 
 #test_file = drive.CreateFile({'title': 'AllCompanyNames.xlsx'})
 
-test_file = drive.CreateFile({'parents': [{'id': '1lHrzs0Ch0fylYuUOgryznYWkx_v2mT3R'}]})
+test_file = drive.CreateFile({'parents': [{'id': '#######33'}]})
 test_file.SetContentFile('Consolidate Files/ConsolidatedData.xlsx')
 test_file.Upload({'convert': True})
